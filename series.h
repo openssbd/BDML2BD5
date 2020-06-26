@@ -27,11 +27,11 @@ public:
 
   void addObject(int on, xyzt i) {
     list<objectentity>::iterator p;
-    int flag = 0;
+//    int flag = 0;
     for (p = oe.begin(); p != oe.end(); p++) {
       if (p->getON() == on) {
         p->addObject(i);
-        flag = 1;
+//        flag = 1;
       }
     }
     objectentity tmp_oe;
